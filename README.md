@@ -12,7 +12,7 @@ Beginner exercises to learn Python.
 2. **Counting Words** - A program that parses a .txt file and extracts the 20 most common words on the file by counting each one of them. It also provides the total number of unique words in the file.
    To run, type `./wordcount.py file`, replacing `file` with the path to a .txt file.
 
-   As an example, you can try the file in the "data" folder.
+   As an example, you can try the example file in this project.
    `./wordcount.py chomsky.txt`
    This will give you the top 40 words in Noam Chomsky's book "Syntactic Structures" and the total number of unique words.
 
