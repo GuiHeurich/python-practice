@@ -20,4 +20,4 @@ Beginner exercises to learn Python.
 
    To run, type `python3 URLShortener.py`. On a another terminal window, type: `curl localhost:5000/url '{"url": "https://www.github.com"}'` and you will receive back a JSON with the original URL and its shortened version.
 
-   Next step: when you try to access the URL, it should give you a status 301 message with the original location.
+   Next step: when trying to access the URL, it should give you a status 301 message with the original location.
