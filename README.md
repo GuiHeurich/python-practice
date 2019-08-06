@@ -16,4 +16,8 @@ Beginner exercises to learn Python.
    `./wordcount.py chomsky.txt`
    This will give you the top 40 words in Noam Chomsky's book "Syntactic Structures" and the total number of unique words.
 
-3) **URL Shortener\*** - A program that receives a post request with a complete URL (e.g. https://www.github.com) and returns a shortened URL that can be accessed while the server is still running. [In progress]
+3) **URL Shortener** - A program that receives a post request with a complete URL (e.g. https://www.github.com) and returns a shortened URL that can be accessed while the server is still running. [In progress]
+
+   To run, type `python3 URLShortener.py`. On a another terminal window, type: `curl localhost:5000/url '{"url": "https://www.github.com"}'` and you will receive back a JSON with the original URL and its shortened version.
+
+   Next step: when you try to access the URL, it should give you a status 301 message with the original location.
