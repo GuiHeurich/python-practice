@@ -36,8 +36,8 @@ Each of these will save a new PNG file inside the graphs folder.
 
 They should look something like this:
 
-[](<./graphs/last_reverse_shuffle(after_refactoring).png>)
-[](<./graphs/find_duplicate(second_attempt).png>)
+[](./graphs/last_reverse_shuffle_two.png)
+[](./graphs/find_duplicate_second_attempt.png)
 
 _The reason the plots are separated is because, at the moment, find_duplicate() takes much longer (it's quadratic) than the other three functions, which are all constant time._
 
