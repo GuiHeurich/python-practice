@@ -34,6 +34,11 @@ python3 plot_duplicate.py
 
 Each of these will save a new PNG file inside the graphs folder.
 
+They should look something like this:
+
+[](<./graphs/last_reverse_shuffle(after_refactoring).png>)
+[](<./graphs/find_duplicate(second_attempt).png>)
+
 _The reason the plots are separated is because, at the moment, find_duplicate() takes much longer (it's quadratic) than the other three functions, which are all constant time._
 
 If you have patience to wait, you can see them also together by running `python3 app.py` and opening your browser on `localhost:5000`. _It will take about three minutes to load...sorry [working on it]_
