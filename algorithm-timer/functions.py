@@ -23,3 +23,12 @@ def shuffle(list):
         if len(list) == 0:
             break
     return shuffled
+
+def find_duplicate(list):
+    uniques = set(list)
+    duplicates = []
+    for x in list:
+        if x not in duplicates:
+            if x in uniques:
+                duplicates.append(x)
+    return duplicates
